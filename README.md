@@ -27,7 +27,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
 - Github repository: [GitHub](https://github.com/Miguelhxrz/NFT-card-FM)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)d
+- Live Site URL: [Website-challenge](https://miguelhxrz.github.io/NFT-card-FM/)
 
 ### Built with
 
@@ -39,6 +39,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Miguelhxrz](https://www.frontendmentor.io/profile/Miguelhxrz)
+- Twitter - [@MiguelHxrz](https://www.twitter.com/MiguelHxrz)
 

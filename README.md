@@ -19,10 +19,10 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![1](./Screenshot/Screenshot-1.png)
-![2](./Screenshot/Screenshot-hover-img.png)
-![3](./Screenshot/Screenshot-hover-name.png)
-![4](./Screenshot/Screenshot-hover-creator.png)
+![1](./Screenshots/Screenshot-1.png)
+![2](./Screenshots/Screenshot-hover-img.png)
+![3](./Screenshots/Screenshot-hover-name.png)
+![4](./Screenshots/Screenshot-hover-creator.png)
 
 ### Links
 

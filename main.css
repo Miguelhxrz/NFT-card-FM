@@ -1,0 +1,212 @@
+/* |---- Font ----| */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Outfit', sans-serif;
+}
+html{
+  font-size: 62.5%
+}
+/* |---- varliables ----| */
+:root {
+  /*Primary*/
+  --soft-blue: #8bacda;
+  --cyan: #00fff7;
+
+  /*Neutral*/
+  --background-blue: #0d192b; /*(main BG)*/
+  --card-blue: #14253d;/*(card BG)*/
+  --card-font: #6a80a1; /*(Color font)*/
+  --card-line: #2f415b; /*(line)*/
+  --White: #ffffff;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-blue);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 770px;
+}
+
+.card__container {
+  position: relative;
+  width: 307px;
+  height: 510px;
+  background-color: var(--card-blue);
+  padding: 22px;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.card__img-container {
+  background-image: url('./images/image-equilibrium.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 263px;
+  margin-bottom: 26px;
+  border-radius: 10px;
+}
+
+.card__img-hover {
+ display: none; 
+}
+
+.card__img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__img-hover {
+  display: none;
+}
+
+.card__title {
+  font-size: 1.9rem;
+  color: var(--White);
+  margin-bottom: 14px;
+}
+
+.card__description {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--card-font);
+  margin-bottom: 15px;
+}
+
+.card__buy {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--card-line);
+}
+
+.card__buy-price {
+  width: 50%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #00fff7;
+}
+
+.card__buy-price img {
+  margin-right: 5px;
+}
+
+.card__buy-left {
+  width: 50%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--card-font);
+}
+
+.card__buy-left img {
+  margin-right: 5px;
+}
+
+.card__creator {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 67px;
+}
+
+.card__creator-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--White);
+}
+
+.card__creator-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__creator-name {
+  font-size: 1.4rem;
+  color: var(--White);
+  margin-left: 12px;
+
+}
+
+.card__creator-name span {
+  color: var(--card-font);
+}
+
+.shadow {
+  top: 104px;
+  width: 334px;
+  height: 574px;
+  background-color: #0c1729;
+  border-radius: 12px;
+  position: absolute;
+  z-index: 0;
+  filter: blur(5px);
+}
+
+footer { 
+  width: 100%;
+  font-size: 11px; 
+  text-align: center;
+}
+footer a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+
+@media (min-width: 800px) {
+
+  .card__title {
+    cursor: pointer;
+  }
+
+  .card__title:hover {
+    color: var(--cyan);
+  }
+
+  .card__creator-name {
+    cursor: pointer;
+  }
+
+  .card__creator-name:hover {
+    color: var(--cyan);
+  }
+
+  .card__img-container {
+    cursor: pointer;
+  }
+
+  .card__img-container:hover + .card__img-hover {
+    position: absolute;
+    bottom: 226px;
+    width: 263px;
+    height: 263px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 247, 0.5);
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+}

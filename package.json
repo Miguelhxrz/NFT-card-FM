@@ -1,0 +1,29 @@
+{
+  "name": "nft-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "FrontendMentor Challenge",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelhxrz/NFT-card-FM.git"
+  },
+  "keywords": [
+    "Frontend",
+    "NFT",
+    "Module",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Miguel Hernandez <miguelherzdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Miguelhxrz/NFT-card-FM/issues"
+  },
+  "homepage": "https://github.com/Miguelhxrz/NFT-card-FM#readme",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}
